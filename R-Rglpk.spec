@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.3_8
+Version:          0.3.10
 Release:          1
 Summary:          R/GNU Linear Programming Kit Interface
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3-8.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/Rglpk_0.3-10.tar.gz
 Requires:         R-slam 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-slam
 BuildRequires:    glpk-devel
@@ -42,5 +42,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
+%{rlibdir}/%{packname}/examples
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
