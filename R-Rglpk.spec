@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.3.10
-Release:          1
+Release:          2
 Summary:          R/GNU Linear Programming Kit Interface
 Group:            Sciences/Mathematics
 License:          GPL-2
