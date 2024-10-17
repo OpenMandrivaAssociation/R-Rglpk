@@ -7,7 +7,7 @@ Release:          2
 Summary:          R/GNU Linear Programming Kit Interface
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/Rglpk_0.3-10.tar.gz
 Requires:         R-slam 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-slam
